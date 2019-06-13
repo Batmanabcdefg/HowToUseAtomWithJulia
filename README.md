@@ -94,19 +94,19 @@ ${1:modulename}.test()\n'
  * http://lesscss.org
  */
 
-// style the background and foreground colors on the atom-text-editor-element itself
-atom-text-editor {
-  color: hsl(10, 10%, 60%);
-  background-color: hsl(190, 10%, 12%);
-}
+ // style the background and foreground colors on the atom-text-editor-element itself
+ atom-text-editor {
+   color: hsl(50, 40%, 80%);
+   background-color: hsl(190, 10%, 12%);
+ }
 
-// style UI elements inside atom-text-editor
-atom-text-editor .cursor {
-  border-color: red;
-}
+ // style UI elements inside atom-text-editor
+ atom-text-editor .cursor {
+   border-color: red;
+ }
 
-atom-text-editor {
-	.selection .region {
-		background-color: rgba(0,0,180,0.59);
-	}
-}
+ atom-text-editor {
+ 	.selection .region {
+ 		background-color: rgba(0,150,180,0.49);
+ 	}
+ }
