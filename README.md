@@ -18,11 +18,10 @@ project-manager
 
 ========================================================================
 -- in  keymap.cson
-  'atom-text-editor':
-    'ctrl-space': 'autocomplete-plus:activate'
 
-  '.platform-win32 .find-and-replace, .platform-linux .find-and-replace':
-    'alt-shift-ctrl-r': 'find-and-replace:replace-next'
+# support to-folder Dragon command
+'atom-text-editor:not([mini])':
+  'ctrl-shift-alt-C': 'editor:copy-path'
 
 
 ========================================================================
