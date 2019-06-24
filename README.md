@@ -20,8 +20,16 @@ project-manager
 -- in  keymap.cson
 
 # support to-folder Dragon command
+
 'atom-text-editor:not([mini])':
   'ctrl-shift-alt-C': 'editor:copy-path'
+
+'atom-text-editor':
+  'ctrl-shift-alt-I': 'editor:auto-indent'
+  'ctrl-shift-alt-w': 'editor:select-word'
+
+'body':
+  'ctrl-shift-0': 'window:toggle-dev-tools'
 
 
 ========================================================================
@@ -106,6 +114,6 @@ ${1:modulename}.test()\n'
 
  atom-text-editor {
  	.selection .region {
- 		background-color: rgba(0,150,180,0.49);
+ 		background-color: rgba(0,80,120,0.9);
  	}
  }
