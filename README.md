@@ -2,6 +2,7 @@
 
 ========================================================================
 -- Atom packages
+```
 uber-juno
 minimap
 auto-indent
@@ -10,15 +11,16 @@ simple-drag-drop-text
 highlight-line
 file-icons
 project-manager
+```
 
 ========================================================================
 -- When  Atom would not start: run this
-  atom --clear-window-state
+  `atom --clear-window-state`
   in a command window
 
 ========================================================================
 -- in  keymap.cson
-
+```
 # support to-folder Dragon command
 
 'atom-text-editor:not([mini])':
@@ -30,17 +32,17 @@ project-manager
 
 'body':
   'ctrl-shift-0': 'window:toggle-dev-tools'
-
+```
 
 ========================================================================
   -- Atom platformio terminal:  set Auto run command to
-  /c/Users/PetrKrysl/AppData/Local/Julia-0.7.0-DEV/bin/julia.exe
+  `/c/Users/PetrKrysl/AppData/Local/Julia-0.7.0-DEV/bin/julia.exe`
   set Show override to
-  C:\Program Files\Git\bin\bash.exe
+  `C:\Program Files\Git\bin\bash.exe`
 
 ========================================================================
   -- Key bindings for Atom
-
+```
   'atom-text-editor':
     'ctrl-space': 'autocomplete-plus:activate'
 
@@ -49,11 +51,11 @@ project-manager
 
   '.platform-linux atom-workspace, .platform-win32 atom-workspace':
     'alt-ctrl-shift-enter': 'platformio-ide-terminal:insert-selected-text'
-
+```
 ========================================================================
 -- Snippets:
 
-
+```
 '.source.julia':
   'forloop':
     'prefix': 'forloop'
@@ -86,10 +88,10 @@ end\n
 end\n
 using .${1:modulename}\n
 ${1:modulename}.test()\n'
-
+```
 ========================================================================
 - styles.less:
-
+```
 /*
  * Your Stylesheet
  *
@@ -117,7 +119,7 @@ ${1:modulename}.test()\n'
  		background-color: rgba(0,80,120,0.9);
  	}
  }
-
+```
 ===============================================================================
 Start Atom within a Git bash:
-start "" "%PROGRAMFILES%\Git\bin\sh.exe" --login -i -c "exec atom"
+`start "" "%PROGRAMFILES%\Git\bin\sh.exe" --login -i -c "exec atom"`
