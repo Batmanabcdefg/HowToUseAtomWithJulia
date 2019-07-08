@@ -117,3 +117,7 @@ ${1:modulename}.test()\n'
  		background-color: rgba(0,80,120,0.9);
  	}
  }
+
+===============================================================================
+Start Atom within a Git bash:
+start "" "%PROGRAMFILES%\Git\bin\sh.exe" --login -i -c "exec atom"
