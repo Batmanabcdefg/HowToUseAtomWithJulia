@@ -11,6 +11,7 @@ simple-drag-drop-text
 highlight-line
 file-icons
 project-manager
+center-line
 ```
 
 ========================================================================
